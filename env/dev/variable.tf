@@ -28,7 +28,7 @@ variable "instance_tags" {
   default = ["Ansible-Master", "Ansible-Node"]
 }
 variable "security_group" {
-  default = "sg-0aaa3aac86f3cdc08"
+  default = "sg-0e5646f0875601f7a"
   description = "Security groups for the instance"
 }
 # Host variables
