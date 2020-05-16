@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "clisrimul"
+    bucket = "infracreate"
     key    = "k8smod/terraform.tfstate"
     region = "us-east-2"
   }
