@@ -19,7 +19,7 @@ variable "instance_type" {
   default = "t3.medium"
 }
 variable "key_name" {
-  default = "srimul"
+  default = "kalyani_ubuntu"
   description = "the ssh key to be used for the EC2 instance"
 }
 
