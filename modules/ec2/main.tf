@@ -7,7 +7,9 @@ provider "aws" {
 output "k8s_public_ip" {
   value = "${aws_instance.cZServers.*.public_ip}"
 }
-
+output "k8s_instance_id" {
+  value = "${aws_instance.cZServers.*.id}"
+}
 resource "aws_instance" "cZServers" {
   ami = var.amiid
   instance_type = var.instance_type
