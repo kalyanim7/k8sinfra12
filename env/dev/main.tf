@@ -5,7 +5,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "infracreate"
-    key    = "ansiblemod/terraform.tfstate"
+    key    = "k8smod/terraform.tfstate"
     region = "us-east-2"
   }
 }
